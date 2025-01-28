@@ -1,95 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Page</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #333333;
-        color: #F5F5DC;
-        text-align: center;
-      }
-      h1 {
-        color: #F5F5DC;
-        text-align: center;
-      }
-      p {
-        margin: 20px;
-        font-size: 18px;
-        line-height: 1.6;
-        text-align: center;
-      }
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-      }
-      li {
-        margin: 10px 0;
-        list-style: disc;
-      }
-      .interests {
-        font-size: 22px;
-        font-weight: bold;
-      }
-      a {
-        color: #F5F5DC;
-        text-decoration: none;
-      }
-      a:hover {
-        color: #FFF;
-      }
-      .language {
-        font-size: 14px;
-        font-style: italic;
-        margin-left: 10px;
-      }
-      .footer {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        display: flex;
-        align-items: center;
-        padding: 10px;
-      }
-      .footer a {
-        display: flex;
-        align-items: center;
-        margin-left: 10px;
-      }
-      .footer img {
-        width: 25px;
-        height: 25px;
-        margin-right: 5px;
-      }
-      .footer svg {
-        fill: #F5F5DC; /* Change the fill color of the svg elements */
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to My Page</h1>
-    <p>Hello and welcome to my page! I'm so glad you're here. This page is all about me and my interests. I hope you enjoy reading about me and learning more about who I am.</p>
-    <h2 class="interests">My Interests:</h2>
-    <ul>
-      <li>Computer Science</li>
-      <li>IT Security</li>
-      <li>Artificial Intelligence</li>
-    </ul>
-    <h2 class="interests">My Github Repositories:</h2>
-    <ul>
-      <li><a href="https://github.com/fisterloegsovs/YoutubeVideoDownloader" target="_blank">Youtube Video Downloader</a> <span class="language">(Python)</span></li>
-      <li><a href="https://github.com/fisterloegsovs/PasswordGenerator" target="_blank">Password Generator</a> <span class="language">(C++)</span></li>
-    </ul>
-    <div class="footer">
-      <a href="https://github.com/fisterloegsovs" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="GitHub icon">GitHub</a>
-      <a href="https://www.linkedin.com/in/anders-persson-63a3a2141/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="LinkedIn icon">LinkedIn</a>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p>Computer Science Graduate | Aspiring Software Engineer</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  </body>
+  </header>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm a Computer Science major finishing up my Master's degree. I have a passion for building scalable and efficient software solutions. My expertise lies in [your skills, e.g., full-stack development, machine learning, etc.].</p>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div id="github-repos" class="projects-grid">
+      <!-- GitHub repos will be dynamically inserted here -->
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
-
-
-
-
-
-
